@@ -35,9 +35,9 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Kei Sugano 
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://itunes.apple.com/jp/artist/su-ren-da-xue-sheng/id475630097">Production</a>
         </footer>
       </div>
     </>
