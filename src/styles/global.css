@@ -1,6 +1,9 @@
+body {
+}
+
 html {
+  background: linear-gradient(to bottom, lightgray , white);
 }
 
 p {
-  color: maroon;
 }
