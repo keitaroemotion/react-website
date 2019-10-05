@@ -23,7 +23,7 @@ const IndexPage = () => (
           <label class="nav-unshown" id="nav-close" for="nav-input"></label>
           <div id="nav-content">
               <button id="button" type=''> Home     </button><br/>
-              <button id="button" type=''> Profile  </button><br/>
+              <a href="profile"><button id="button" type=''> Profile  </button></a><br/>
               <button id="button" type=''> Music    </button><br/>
               <button id="button" type=''> Manga    </button><br/>
               <button id="button" type=''> Computer </button><br/>
