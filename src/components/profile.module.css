@@ -1,0 +1,31 @@
+.company {
+    position:   relative;
+}
+
+#company_name {
+    font-weight: bold;
+}
+
+#duration {
+    font-style: italic;
+    font-size:   0.9em;
+    text-align:  right;
+}
+
+#job_title {
+    font-weight: 600;
+    font-size:   0.9em;
+
+}
+
+#description {
+    
+}
+
+#title1 {
+
+}
+
+#title2 {
+
+}
