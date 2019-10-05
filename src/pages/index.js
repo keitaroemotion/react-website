@@ -13,26 +13,12 @@ import "../styles/global.css"
 import github   from "../images/github.png"
 import bandcamp from "../images/bandcamp.png"
 import blogger  from "../images/blogger.png"
+import Menu     from "../components/menu"
 
 const IndexPage = () => (
   <Layout>
-    <header>
-      <div id="nav-drawer">
-          <input id="nav-input" type="checkbox" class="nav-unshown"/>
-          <label id="nav-open" for="nav-input"><span></span></label>
-          <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-          <div id="nav-content">
-              <button id="button" type=''> Home     </button><br/>
-              <a href="profile"><button id="button" type=''> Profile  </button></a><br/>
-              <button id="button" type=''> Music    </button><br/>
-              <button id="button" type=''> Manga    </button><br/>
-              <button id="button" type=''> Computer </button><br/>
-              <button id="button" type=''> Contact  </button>   
-          </div>
-      </div>
-    </header>
-
     <SEO title="Home" />
+    <Menu />
     <h2 id="second_title">Homepage of a Mixed Artist.</h2>
     <p> 
       Mixed Artist is the artist who has multiple expression/output channels such as music composition, rap, drawing, manga, programming, novel, etc. The ultimate goal of MA is to express themselves and contribute to the culture innovation of human species.

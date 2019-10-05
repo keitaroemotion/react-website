@@ -1,6 +1,7 @@
 import React  from "react";
 import Layout from "../components/layout"
 import styles from "../components/profile.module.css"
+import Menu   from "../components/menu"
 import "../css/main.css"
 
 const Job = props => (
@@ -25,6 +26,7 @@ const Job = props => (
 
 const IndexPage = () => (
     <Layout>
+        <Menu />
         <h2 id="second_title">Profile</h2>
         <Job 
             company_name = "Early Works Co. Ltd.,"
