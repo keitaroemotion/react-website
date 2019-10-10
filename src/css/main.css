@@ -8,6 +8,27 @@
     left:     10px;
 }
 
+#blank {
+    display:  inline-block;
+}
+
+#bitcoin {
+    font-size: 0.5em;
+    position: absolute;
+    text-align: right;
+    width:    300px;
+    right:    150px;
+    display:  inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color:    gray;
+}
+
 a img:hover{
     position: relative;
     top:      -1px;

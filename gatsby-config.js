@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Kei Sugano's website`,
+    title: `Keikun Lab`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },

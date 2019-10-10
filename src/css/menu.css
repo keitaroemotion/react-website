@@ -4,17 +4,18 @@
       right:      10px;
       top:        10px;
       text-align: right;
+      z-index:    3;
     }
 }
 @media only screen and (min-width: 761px) {
     #nav-drawer {
-      position:   absolute;
+      position:   fixed;
       right:      20px;
       top:        10px;
       text-align: right;
+      z-index:    3;
     }
 }
-
 
 /*チェックボックス等は非表示に*/
 .nav-unshown {

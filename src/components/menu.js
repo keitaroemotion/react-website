@@ -1,4 +1,4 @@
-import React from "react"
+import React     from "react" 
 import PropTypes from "prop-types"
 
 const Menu = () => (
@@ -7,12 +7,14 @@ const Menu = () => (
           <label id="nav-open" for="nav-input"><span></span></label>
           <label class="nav-unshown" id="nav-close" for="nav-input"></label>
           <div id="nav-content">
-              <button id="button" type=''> Home     </button><br/>
-              <a href="profile"><button id="button" type=''> Profile  </button></a><br/>
-              <button id="button" type=''> Music    </button><br/>
-              <button id="button" type=''> Manga    </button><br/>
-              <button id="button" type=''> Computer </button><br/>
-              <button id="button" type=''> Contact  </button>   
+              <a href="/">       <button id="button" type=''> Home     </button></a><br/>
+              <a href="profile"> <button id="button" type=''> Profile  </button></a><br/>
+              <a href="music">   <button id="button" type=''> Music    </button></a><br/>
+              <a href="manga">   <button id="button" type=''> Manga    </button></a><br/>
+              <a href="drawings"><button id="button" type=''> Drawings </button></a><br/>
+              <a href="computer"><button id="button" type=''> Computer </button></a><br/>
+              <a href="store">   <button id="button" type=''> Store    </button></a><br/>
+              <a href="contact"> <button id="button" type=''> Contact  </button></a>   
           </div>
     </div>
 )
